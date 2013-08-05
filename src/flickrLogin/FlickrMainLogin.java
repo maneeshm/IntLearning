@@ -47,7 +47,7 @@ public class FlickrMainLogin {
             IOUtilities.close(in);
         }
         
-        Flickr flickr = new Flickr("418445cc1f27d416d9569cec7f93bf74", "d4d3c68937f83f67", 
+        Flickr flickr = new Flickr("DEADBEEF", "DEADBEEF", 
         		new com.flickr4java.flickr.REST());
         Flickr.debugStream = false;
         AuthInterface authInterface = flickr.getAuthInterface();
